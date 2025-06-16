@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="AzubiAssist - Die ultimative App für deine Ausbildung">
+    <title>AzubiAssist - Die ultimative App für deine Ausbildung</title>
+    <link rel="stylesheet" href="./styles.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="./script.js" defer></script>
+</head>
+<body>
+    <!-- Background Effects -->
+    <div class="bg-effect bg-effect-1"></div>
+    <div class="bg-effect bg-effect-2"></div>
+
+    <!-- Header -->
+    <header>
+        <nav>
+            <div class="logo">AzubiAssist</div>
+            <ul class="nav-links">
+                <li><a href="#features">Features</a></li>
+                <li><a href="#testimonials">Erfahrungen</a></li>
+                <li><a href="#roadmap">Roadmap</a></li>
+                <li><a href="#faq">FAQ</a></li>
+                <li><a href="#contact">Kontakt</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h1>Deine Ausbildung. Organisiert.</h1>
+                    <p>Die erste App, die wirklich für Azubis gemacht ist. Noten berechnen, Berichtsheft führen, Prüfungen planen – alles in einer smarten App.</p>
+                    
+                    <div class="cta-section">
+                        <div class="launch-date">🚀 Launch: 1. Januar 2026</div>
+                        
+                        <form class="email-form" id="emailForm">
+                            <input type="email" class="email-input" placeholder="deine@email.de" required id="emailInput">
+                            <button type="submit" class="btn-primary">Benachrichtigen</button>
+                        </form>
+
+                        <div class="success-message" id="successMessage">
+                            ✅ Perfekt! Du wirst als Erste/r benachrichtigt, wenn AzubiAssist verfügbar ist.
+                        </div>
+
+                        <div class="stats">
+                            <span>📱 iOS & Android</span>
+                            <span>🔒 100% Datenschutz</span>
+                            <span>🇩🇪 Made in Germany</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="hero-visual">
+                    <div class="phone-mockup">
+                        <img src="MockupDesign.png" alt="AzubiAssist App Mockup" class="app-mockup">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="features" id="features">
+        <div class="container">
+            <div class="section-header">
+                <h2>Alles, was du brauchst</h2>
+                <p>Endlich eine App, die versteht, was Azubis wirklich brauchen. Entwickelt von einem Azubi, für Azubis.</p>
+            </div>
+
+            <div class="features-grid">
+                <div class="feature-item">
+                    <div class="feature-icon">🧮</div>
+                    <h3>Intelligenter Notenrechner</h3>
+                    <p>Berechne deinen Durchschnitt mit individueller Gewichtung. Die "Was brauche ich noch?"-Funktion zeigt dir genau, welche Note du für dein Ziel brauchst.</p>
+                </div>
+
+                <div class="feature-item">
+                    <div class="feature-icon">📋</div>
+                    <h3>Smart Berichtsheft</h3>
+                    <p>Schnelle Eingabe mit Auto-Vervollständigung und Vorlagen. PDF-Export für deinen Ausbilder mit einem Klick.</p>
+                </div>
+
+                <div class="feature-item">
+                    <div class="feature-icon">📅</div>
+                    <h3>Prüfungsplaner</h3>
+                    <p>Nie wieder eine Prüfung vergessen. Automatische Erinnerungen und Countdown bis zum großen Tag.</p>
+                </div>
+
+                <div class="feature-item">
+                    <div class="feature-icon">✅</div>
+                    <h3>To-Do & Hausaufgaben</h3>
+                    <p>Behalte den Überblick über alle Aufgaben. Prioritäten setzen und abhaken, wenn erledigt.</p>
+                </div>
+
+                <div class="feature-item">
+                    <div class="feature-icon">📊</div>
+                    <h3>Fortschritts-Tracking</h3>
+                    <p>Verfolge deine Entwicklung über die gesamte Ausbildung. Statistiken und Trends auf einen Blick.</p>
+                </div>
+
+                <div class="feature-item">
+                    <div class="feature-icon">☁️</div>
+                    <h3>Cloud-Backup</h3>
+                    <p>Deine Daten sind sicher und überall verfügbar. Geräte wechseln? Kein Problem!</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="testimonials" id="testimonials">
+        <div class="container">
+            <div class="section-header">
+                <h2>Was Azubis sagen</h2>
+                <p>Echtes Feedback von Beta-Testern, die AzubiAssist bereits nutzen dürfen.</p>
+            </div>
+
+            <div class="testimonials-grid">
+                <div class="testimonial-card">
+                    <div class="testimonial-avatar">L</div>
+                    <div class="testimonial-text">"Endlich eine App, die meine Probleme versteht! Der Notenrechner hat mir schon mehrmals den Arsch gerettet."</div>
+                    <div class="testimonial-author">Lisa</div>
+                    <div class="testimonial-role">Kauffrau für Büromanagement, 2. Jahr</div>
+                </div>
+
+                <div class="testimonial-card">
+                    <div class="testimonial-avatar">M</div>
+                    <div class="testimonial-text">"Das Berichtsheft war immer mein Horror. Mit AzubiAssist ist es entspannt und geht super schnell."</div>
+                    <div class="testimonial-author">Max</div>
+                    <div class="testimonial-role">KFZ-Mechatroniker, 3. Jahr</div>
+                </div>
+
+                <div class="testimonial-card">
+                    <div class="testimonial-avatar">S</div>
+                    <div class="testimonial-text">"Die To-Do-Liste ist ein Game-Changer. Ich vergesse nichts mehr und bin viel organisierter geworden."</div>
+                    <div class="testimonial-author">Sarah</div>
+                    <div class="testimonial-role">Industriekauffrau, 1. Jahr</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Timeline/Roadmap Section -->
+    <section class="timeline" id="roadmap">
+        <div class="container">
+            <div class="section-header">
+                <h2>Entwicklungs-Roadmap</h2>
+                <p>Hier siehst du, wann welche Features kommen. Transparency first!</p>
+            </div>
+
+            <div class="timeline-container">
+                <div class="timeline-item">
+                    <div class="timeline-date">Jetzt</div>
+                    <div class="timeline-content">
+                        <h4>Entwicklung läuft</h4>
+                        <p>Das Kernteam arbeitet an den wichtigsten Features: Notenrechner, Berichtsheft und Kalender.</p>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-date">Sept 2025</div>
+                    <div class="timeline-content">
+                        <h4>Beta-Testing</h4>
+                        <p>Ausgewählte Azubis testen die App und geben Feedback. Du möchtest dabei sein? Trag dich oben ein!</p>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-date">Nov 2025</div>
+                    <div class="timeline-content">
+                        <h4>App Store Review</h4>
+                        <p>Finale Tests und Einreichung bei Apple und Google. Alle Bugs werden ausgemerzt.</p>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-date">1. Jan 2026</div>
+                    <div class="timeline-content">
+                        <h4>🚀 LAUNCH!</h4>
+                        <p>AzubiAssist ist verfügbar! Kostenlos für alle mit Premium-Features für Power-User.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="faq" id="faq">
+        <div class="container">
+            <div class="section-header">
+                <h2>Häufige Fragen</h2>
+                <p>Hier findest du Antworten auf die wichtigsten Fragen zu AzubiAssist.</p>
+            </div>
+
+            <div class="faq-container">
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h4>💰 Was kostet AzubiAssist?</h4>
+                        <span class="faq-toggle">+</span>
+                    </div>
+                    <div class="faq-answer">
+                        <p>AzubiAssist ist komplett kostenlos! Alle wichtigen Features wie Notenrechner, Berichtsheft und Kalender sind ohne Bezahlung verfügbar. Es gibt optional Premium-Features für Power-User, aber die Basis-App bleibt immer gratis.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h4>📱 Für welche Geräte ist die App verfügbar?</h4>
+                        <span class="faq-toggle">+</span>
+                    </div>
+                    <div class="faq-answer">
+                        <p>AzubiAssist wird für iOS (iPhone/iPad) und Android verfügbar sein. Du kannst die App im App Store und Google Play Store herunterladen. Eine Web-Version ist für später geplant.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h4>🔒 Sind meine Daten sicher?</h4>
+                        <span class="faq-toggle">+</span>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Absolut! Deine Daten werden verschlüsselt und sicher in Deutschland gespeichert. Wir halten uns an die DSGVO und verkaufen niemals deine Daten an Dritte. Du behältst die volle Kontrolle über deine Informationen.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h4>🎯 Funktioniert die App für alle Ausbildungsberufe?</h4>
+                        <span class="faq-toggle">+</span>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Ja! AzubiAssist ist für alle Ausbildungsberufe konzipiert. Die Features sind universell einsetzbar - egal ob du eine kaufmännische, technische oder handwerkliche Ausbildung machst.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h4>✨ Kann ich schon vor dem Launch Beta-Tester werden?</h4>
+                        <span class="faq-toggle">+</span>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Klar! Trag einfach deine E-Mail oben ein. Wir wählen regelmäßig neue Beta-Tester aus und du bekommst die Chance, die App vor allen anderen zu testen und mitzugestalten.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta-final">
+        <div class="container">
+            <div class="cta-final-content">
+                <h2>Bereit für eine entspannte Ausbildung?</h2>
+                <p>Schließ dich bereits über <span id="finalSignupCount">423</span> Azubis an und verpasse nicht den Launch!</p>
+                
+                <form class="email-form-final" id="emailFormFinal">
+                    <input type="email" class="email-input" placeholder="deine@email.de" required id="emailInputFinal">
+                    <button type="submit" class="btn-primary">🚀 Jetzt vormerken</button>
+                </form>
+
+                <div class="success-message" id="successMessageFinal">
+                    ✅ Perfekt! Du wirst als Erste/r benachrichtigt, wenn AzubiAssist verfügbar ist.
+                </div>
+
+                <div class="final-benefits">
+                    <div class="benefit-item">
+                        <span class="benefit-icon">⚡</span>
+                        <span>Sofortige Benachrichtigung beim Launch</span>
+                    </div>
+                    <div class="benefit-item">
+                        <span class="benefit-icon">🎁</span>
+                        <span>Exklusive Beta-Tester Chance</span>
+                    </div>
+                    <div class="benefit-item">
+                        <span class="benefit-icon">💎</span>
+                        <span>Kostenlose Premium-Features zum Start</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="contact">
+        <div class="container">
+            <div class="footer-content">
+                <div class="logo">AzubiAssist</div>
+                <div class="social-links">
+                    <a href="#" title="Instagram">📷</a>
+                    <a href="#" title="TikTok">🎵</a>
+                    <a href="#" title="YouTube">📺</a>
+                </div>
+            </div>
+            <p style="color: rgba(255, 255, 255, 0.5); font-size: 1.1rem;">
+                Made with ❤️ by a fellow Azubi | 
+                <span id="signupCount">423</span> Azubis warten bereits auf den Launch
+            </p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
